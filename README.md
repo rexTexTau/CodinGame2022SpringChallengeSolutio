@@ -25,7 +25,7 @@ In other words, I can't exactly know, which action specific hero will choose at 
 
 Sample raplay: https://www.codingame.com/replay/622584657
 
-To make weights to be comparable with each other, a simple normalization/mapping function is used, that maps values from interval (0; Infinity) to (0; 1) interval:
+To make weights to be comparable with each other, a simple normalization/mapping function is used, that maps values from `(0; Infinity)` interval to `(0; 1)` interval:
 
 ```
 double InfiniteScalarsToWeight(double moreIsBetter, double lessIsBetter) // max 1, min 0
@@ -34,15 +34,15 @@ double InfiniteScalarsToWeight(double moreIsBetter, double lessIsBetter) // max 
 }
 ```
 
-It has two parameters: moreIsBetter for the product of values that positively influence making specific game decision, and lessIsBetter the product of values that negatively influence making specific game decision.
+It has two parameters: `moreIsBetter` for the product of values that positively influence making specific game decision, and `lessIsBetter` the product of values that negatively influence making specific game decision.
 
 Each product may contain hero's characteristics (like `Attacker`, `Hunter` etc), as well as parts of current game state (health, mana, distances etc.)
 
 ## Platform inconvenience
 
-On codingame.com platform during that challenge one haven't had an ability to access a history of matches' results (that, combined with vector of algo input parameters, like heroes' personality characteristics, could give an opportunity to optimize these set of parameters using some kind of AI like GA, NN or RBF).
+On codingame.com platform during that challenge one haven't had an ability to access a history of matches' results via code (that, combined with vector of algo input parameters, like heroes' personality characteristics, could give an opportunity to optimize these set of parameters using some kind of AI like GA, NN or RBF).
 
-One also haven't had an ability to start the fight simulation programmatically, only by hand.
+One also haven't had an ability to start the game simulation programmatically - only by hand.
 
 These facts stopped me from further participations in this events: I've made the algo fully parametrized (so, ready to be optimized using some AI texhniques) - but ther were no convenient ability for that optimization provided.
 
