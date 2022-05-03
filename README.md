@@ -14,7 +14,7 @@ My humble version of C# Codingame Spring Challenge 2022 Solution.
 
 Not so high. My bot (not AI, just pre-AI stub) reached 4166th place of 7695, ending the competition in Silver league (1,646th of 2,113 league members).
 
-Nevertheless, it was a gret, entertaining and challenging experience.
+Nevertheless, it was a great, entertaining and challenging experience.
 
 ## Disclaimer
 
