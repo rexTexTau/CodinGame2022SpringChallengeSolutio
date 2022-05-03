@@ -4,7 +4,9 @@ My humble version of C# Codingame Spring Challenge 2022 Solution.
 
 ## Points of interest
 
-...
+This solution implements weighted decision-making system: any possible character's game action in a specific moment of time 
+
+
 
 ## Platform inconvenience
 
@@ -19,3 +21,9 @@ Nevertheless, it was a great, entertaining and challenging experience.
 ## Disclaimer
 
 Code published as-is, without any polish after end of the event. Since it's the code from a time-limited challenge, there could be places where it's a little bit dirty, there's no comments or even some errors. Please accept these facts understandingly.
+
+# If you benefit from my work
+
+You're welcome to share a tiny part of your success with me:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/rextextaucom)
