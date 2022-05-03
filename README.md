@@ -4,9 +4,18 @@ My humble version of C# Codingame Spring Challenge 2022 Solution.
 
 ## Points of interest
 
-This solution implements weighted decision-making system: any possible character's game action in a specific moment of time 
+This solution implements weighted decision-making system: any possible character's game action in a specific moment of time is associated with some numeric weight. Weight calculus is based on the current game state (hero coordinates, monsters coordinates, base health, mana left, current turn no and so forth) and on the predefined set of numbers, that describe current hero's personality:
 
+```
+public double Attacker { get; private set; } // tends to attack opponent's base
+public double Defender { get; private set; } // tends to defend own base
+public double Duelist { get; private set; } // tends to attacks opponent's heroes
+public double Hunter { get; private set; } // tends to attack monsters
+public double Prodigal { get; private set; } // tends to cast spells
+public double Conservator { get; private set; } // tends to return to initial position
+```
 
+...
 
 ## Platform inconvenience
 
