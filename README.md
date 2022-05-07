@@ -58,7 +58,7 @@ Nevertheless, it was a great, entertaining and challenging experience.
 
 ## Disclaimer
 
-Code published as-is, without any polish after end of the event. Since it's the code from a time-limited challenge, there could be places where it's a little bit dirty, there's no comments or even some errors. Please accept these facts understandingly.
+Code published as-is, without any polish after the end of the event. Since it's the code from a time-limited challenge, there could be places where it's a little bit dirty, there's no comments or even some logical errors. Please accept these facts understandingly.
 
 # If you benefit from my work
 
