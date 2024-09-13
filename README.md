@@ -44,7 +44,7 @@ On codingame.com platform during that challenge one haven't had an ability to ac
 
 One also haven't had an ability to start the game simulation programmatically - only by hand.
 
-These facts stopped me from further participations in this events: I've made the algo fully parametrized (so, ready to be optimized using some AI texhniques) - but ther were no convenient ability for that optimization provided.
+These facts stopped me from further participations in this events: I've made the algo fully parametrized (so, ready to be optimized using some AI techniques) - but there were no convenient ability for that optimization provided.
 
 Basically, Codingame platform design enforces me to write bot, not AI.
 
